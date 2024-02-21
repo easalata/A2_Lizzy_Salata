@@ -23,7 +23,10 @@
 				This dataset was used to create MAPC's report "Homes for Profit" in 2023. It contains residential sales 
 				data strictly for the city of Boston from 2000 to 2023. The data encompasses 63 metrics including 
 				categorizations such as type of property, zipcode, buying/ selling price, buying/ selling entity, and much 
-				more.   
+				more. I chose to analyze this particular dataset because I feel as though it was the most relevant to my own experiences.
+				For example, when I was living in Reston, VA prior to MIT, the apartment building I was living in changed management and 
+				I experienced some of the degredations in customer service and living ammenities as discussed in the readingings (2). Additionally,
+				the triplex located next to my current apartment was recently bought, flipped, and now is back on the market.
 			</ol>
 
 			<h3>Overall Analysis Questions</h3>
@@ -34,6 +37,7 @@
 					purchasing and selling the property (i.e. bought and sold through speculation or not)?</li>
 				<li>Which neighborhoods in the Greater Boston Area are being most affected by flipped properties?</li>
 				<li>What types of entities are buying and selling these properties? (i.e. banks, individuals, LLC, etc.)</li>
+				<li>Is there any data missing from this dataset that should be included in future studies to mitigate bias?</li>
 			</ol>
 		</section>
 
@@ -57,6 +61,7 @@
 				Apartment Building 4-8 Units (111), Office Building-General (340), Retail-Service (325), Apartment Building 9+ Units (112), 
 				2 Family Residence (104), Office Condo Unit (343), and Mixed Use Primary Residence & Community (13). While it is true that property types
 				discussed in the readings, such as condominiums and apartments are being flipped, there are other categories of properties being flipped as well.
+				This visualization prompts a new question set of questions. Where are these Condominiums located and how profitable are they to flip?
 				</figcaption>
 			</figure>
 
@@ -69,7 +74,8 @@
 				visualization, the view has been zoomed in to main Boston neighborhoods, and therefore, one should note that the few properties that are included 
 				in the dataset but are located in more suburban areas have been excluded from view. There is significant representation of 'APT,' 'COM,' 'R1F,' and 
 				'RCD.' Unfortunately, the metadata only translates a few of these labels (APT for apartment, CNR for condo, COM for commercial, and R1F for single 
-				family residence), so it is unclear whether the types properties displayed match the properties described in the background readings.
+				family residence), so it is unclear whether the types properties displayed match the properties described in the background readings. An additional 
+				question resulting from this visualization is why are there evident gaps of no properties in some areas?
 				</figcaption>
 			</figure>
 
@@ -80,7 +86,9 @@
 				these properties. One critique I have for this visualization
 				is that both buyers and sellers are displayed in the same color. As I gain expertise in utilizing tableau, I hope to be able to control colors for ease 
 				of distinguishing these two groups. Another critique of this visualization is that individuals who are not a part of these larger firms but did purchase 
-				or sell properties are not included on this bar chart (i.e. the remaining catergory for when the property buyer/ seller is not an LLC, bank, etc.)
+				or sell properties are not included on this bar chart (i.e. the remaining catergory for when the property buyer/ seller is not an LLC, bank, etc.). This leads to 
+				an additional set of questions. Why are there seeminly more sellers than buyers? How does the dataset display buyers and sellers that are not these larger firms such as 
+				banks and LLC's (for example, a normal person looking to buy a property)?
 				</figcaption>
 			</figure>
 
@@ -89,7 +97,8 @@
 				<figcaption>
 				With this visualization, I start to see some correlations in the data. In the first visualization, the largest bubble was property type 102 which translates 
 				to condominium. Here we see another prevalent value in condominiums, this time in total price difference between selling and buying prices. This information 
-				supports the testimonies from the background readings that condominiums are being greatly affected, and will drive some of the later analysis. 
+				supports the testimonies from the background readings that condominiums are being greatly affected, and will drive some of the later analysis. Here I see a 
+				potential rational for firms targeting condominiums. What percentage of condominiums sell for less than they were purchased?
 				</figcaption>
 			</figure>
 
@@ -101,7 +110,8 @@
 				is the case that usually only larger firms can afford to buy using this method. Since 'Buyer LLC' was the largest type of firm to buy properties, the orange shading of 
 				the circles represents how many properties were bought by LLC's. Not surprisingly, there is a correlation between units bought with cash and units bought by LLC's. The largest
 				and darkest circle is in the Back Bay neighborhood. While I have only lived in the greater Boston area for a few months, one cannot ignore the constant chatter of how this neighborhood
-				is rapidly upgrading and expanding to attract higher paying residents. 
+				is rapidly upgrading and expanding to attract higher paying residents. This leads to a follow up question related to the previous visualization. Is there a correlation between which homes 
+				are bought with cash by LLC's and the buy/sell price difference? 
 				</figcaption>
 			</figure>
 
@@ -119,6 +129,7 @@
 				<figcaption>
 				The above figure displays the top 4 zipcodes for total counts of properties considered as flips based on MAPC's algorith of difference between buy and sell price. Additionally, the size of each circle
 				displays the average of price difference percentage. In a similar map view, or by translating these zipcodes to neighborhoods, these are all prominant and popular neighborhoods in the greater Boston area.
+				An additional question is the following: are we seeing significant resident turnover rate in these specific neighborhoods?
 				</figcaption>
 			</figure>
 
@@ -127,7 +138,8 @@
 				<figcaption>
 				This image is attempting to take advantage of the long tenure of data that was collected in this data set. The 'RCD' property type is clearly dominating the types of properties being flipped. It is interesting to note 
 				the steep downward trend in properties being flipped as we near present day which severely contrasts the housing activity from 2013 to 2019. Unfortunately, due to the lact of translating these property acronyms from the 
-				metadata, it is difficult to confirm whether the properties most commonly being flipped are for residential purposes. 
+				metadata, it is difficult to confirm whether the properties most commonly being flipped are for residential purposes. After analyzing this visualization, next to RCD's, which housing type is most commonly flipper per the 
+				last 20 years?
 				</figcaption>
 			</figure>
 
@@ -136,7 +148,8 @@
 				<figcaption>
 				This visualization juxtaposes two themes previously explored. First, I noticed that LLC's dominate the market in terms of buying properties. Second, properties considered flipped increased dramatically between 2010 and 2019.
 				In this visualization we see a correlation of LLC activity with flipped properties which provides statistical evidence to the qualitative assesments described in the readings. This visualization as well as the previous make me question 
-				why are flipped properties rapidly decreasing over the past few years? Of course we cannot ignore the impacts of the pandemic so this could be explored in later visualizations. 
+				why are flipped properties rapidly decreasing over the past few years? Of course we cannot ignore the impacts of the pandemic so this could be explored in later visualizations. Over the past few years, are LLC's now buying and selling properties 
+				without flipping them?
 				</figcaption>
 			</figure>
 
@@ -144,7 +157,8 @@
 				<img src="images/flipped_condos.png" alt="" />
 				<figcaption>
 				This visualization shows a very interesting trend occuring over the last 5 years of firms or individuals focusing attention on flipping condominum properties to the surrounding neighborhoods of Boston. I chose this particular time span because
-				it demonstrates the most dramatic evolution of shifting trends. 
+				it demonstrates the most dramatic evolution of shifting trends. How far outside of central Boston are firms willing to go to attempt to buy and flip a property for profit? What are the firms' true intentions, improve the city with higher quality housing 
+				or turn a profit?
 				</figcaption>
 			</figure>
 		</section>
@@ -156,7 +170,7 @@
 				analysis that could be performed on this dataset. There are so many variables to combine and explore, however, I do feel as 
 				though I have a deeper understanding of yearly trend shifts, and the emphasis on buyers and sellers focusing efforts on condominiums.
 				After reading the background articles and completing this preliminary exploratory analysis, I believe these speculators are greatly
-				impacting the housing crisis of the greater Boston area. Before this exercise and class session, I had never used Tableau before. While
+				impacting the housing crisis of the greater Boston area (1). Before this exercise and class session, I had never used Tableau before. While
 				I still do not identify as an expert in this data visualization tool, I can confidently say that I am more comfortable with some of the 
 				basic visualizations Tableau has, and I look forward to attempting more complex combinations of data. For example, rather than constantly 
 				referencing what zipcodes translate to what neighborhoods or what property type acronyms translate to what property catergories, I would 
@@ -166,6 +180,15 @@
 				understanding of general trends in the dataset. My initial question listed above was in reponse to my own housing experiences as well
 				as the testimonies read in the articles. This question I feel has been unanswered but may need an alternative dataset to truly find clarity. 
 			</p>
+		</section>
+
+		<section>
+				<h2>Citations</h2>
+
+				<ol>
+					<li>https://homesforprofit.mapc.org/report</li>
+					<li>https://www.propublica.org/article/when-private-equity-becomes-your-landlord</li>
+				</ol>
 		</section>
 	</main>
 </body>
